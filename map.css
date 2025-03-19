@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(212, 211, 209);
+}
+body{
+    margin: 5px;
+    background-color: #d3d3d3;
+    height: calc(100vh-10px);
+}
+.main{
+    display: flex;
+height: 100vh;
+width: calc(100%-10px);
+background-color: rgb(212, 211, 209);
+}
+
+.sign, .mapp{
+    flex: 1;
+}
+.control{
+    display: flex;
+}
+.form-group{
+    display: block;
+    flex-direction: row;
+    align-items: center;
+    margin:10px;
+}
+
+input, textarea{
+    background-color: #ffffff;
+}
+.formation{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:normal;
+    margin: 10px;
+    width: 90%;
+
+}
+.formation > input{
+    height: 2rem;
+}
+label{
+    font-family: sans-serif;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+.mapp iframe{
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+.message{
+    margin: 10px;
+}
+.send > button{
+    margin: 10px;
+    height: 40px;
+    width: 170px;
+    padding: 10px;
+    background-color: #0408f8;
+    color: #f4f4f7;
+    border: none;
+border-radius: 10px;
+}
+
