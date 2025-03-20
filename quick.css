@@ -88,9 +88,9 @@ footer > input{
 }
 #b{
 border: none;
-background-color: blue;
+background-color: rgb(208, 7, 181);
 color: white;
-
+/*blah*/
 }
 #check{
     margin: 10px;
