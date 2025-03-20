@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(204, 203, 203);
+}
+.classy{
+    border: solid 3px rgb(219, 216, 216);
+    margin:1rem;
+     background-color:rgb(251, 251, 251) ;
+     
+    
+}
+#s1{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+ #s1>header>h2{
+    margin-top: 0.5rem;
+    border-top: solid 3px blue;
+    border-radius: 4px;
+    border-bottom: solid 1px rgb(203, 202, 202);
+}
+main > #s1> form > label{
+    font-size: 1rem;
+    font-weight: 700;
+    font-family: sans-serif;
+    margin: 10px;
+} 
+#s1> form> input{
+    margin: 10px;
+}
+#email, #ps{
+    width: 90%;
+    height: 1.5rem;
+}
+#x{
+    margin:0;
+    font-weight: 200;
+}
+p{
+    margin: 10px;
+}
+#y{ display: inline-block;
+  width: 20%;
+  height: 2rem;
+  border: none;
+  background-color: rgb(36, 36, 241);
+  color: white;
+  border-radius: 4px;
+  position: relative; 
+}
+#y ::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: grey;
+}
+#s2{
+    display: flex;
+    flex-direction: column;
+;
+}
+#s2 form label{
+    font-family:joesefin-sans, roboto, arial;
+    font-size: 1rem;
+    font-weight: 700;
+    margin: 10px;
+}
+#s2 form input{
+   
+    height: 2rem;
+    margin-top: 10px;
+}
+footer{
+    display: flex;
+justify-content: space-between;
+
+}
+footer > input{
+    width: 60px;
+    height: 40px;
+    border-radius: 4px;
+    margin: 10px;
+}
+#b{
+border: none;
+background-color: blue;
+color: white;
+
+}
+#check{
+    margin: 10px;
+    width: 1rem;
+}
+footer ::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: grey;
+}

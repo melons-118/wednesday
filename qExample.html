@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Example page</title>
+    <link rel="stylesheet" href="quick.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="classy">
+       
+    <main>
+        <section id="s1">
+             <header>
+        <h2>Quick Example</h2>
+    </header>
+             <form action="">
+         <label for="email">Email</label> <br>
+         <input type="email" name="email" id="email" placeholder="Email"><br>
+         <label for="ps">Password</label><br>
+         <input type="password" name="ps" id="ps" placeholder="Password"> <br>
+         <label for="fl">File Input</label><br>
+         <input type="file" name="fl" id="fl"><br>
+         <p>Please choose a file from your local machine or your cloudspace.</p>
+         <input type="checkbox" name="check" id="check">
+         <label for="check" id="x">Check me out</label> <br>
+         <input type="submit" value="Submit" id="y">
+      </form>
+        </section> <br><br><br>
+     
+        <section id="s2">
+            <header>
+                <h2>Horizontal Form</h2> <br>
+            </header>
+            <form action="">
+                <label for="email">Email</label>
+                 <input type="email" name="email" id="email" placeholder="Email"> <br>
+                 <label for="pass">Password</label>
+                 <input type="password" name="pass" id="pass" placeholder="Password"> <br>
+                 <input type="checkbox" name="check" id="check">
+                 <label for="check" > Remember me</label>
+                 <footer>
+                    <input type="button" value="Cancel" onclick="resetForm()">
+                    <input type="submit" value="Submit" id="b">
+                 </footer>
+            </form>
+        </section>
+    </main>
+    </div>
+    <script>
+        function resetForm(){
+            document.querySelectorAll('form').forEach(form=>form.reset());
+        }
+    </script>
+</body>
+</html>
